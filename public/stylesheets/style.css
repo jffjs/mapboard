@@ -1,0 +1,47 @@
+body {
+  width: 950px;
+  margin: 40px auto;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#map {
+  width: 640px;
+  margin-right: 10px;
+  float: left;
+}
+
+#map-canvas {
+  width: 640px;
+  height: 480px;
+}
+
+#chat {
+  width: 300px;
+  margin-right: 0px;
+  float: left;
+}
+
+#message-box {
+  height: 360px;
+  padding: 10px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul#messages {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+ul#messages li {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+#message {
+  width: 300px;
+}

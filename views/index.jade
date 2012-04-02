@@ -1,0 +1,14 @@
+h1 Mapboard
+p Welcome to Mapboard
+#join
+#map
+  #map-canvas
+#chat
+  form#name-form
+    label(name='name') Name: 
+    input(type='text', id='name', name='name', value='New User')
+  #message-box
+    ul#messages
+  form#message-form(action='#')
+    input(type='text', id='message', name='message')
+    input(type='submit', value='submit', id='message-btn')
